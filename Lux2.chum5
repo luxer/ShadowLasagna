@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <character>
   <createdversion>5.203.129</createdversion>
-  <appversion>5.203.129</appversion>
+  <appversion>5.205.0</appversion>
   <gameedition>SR5</gameedition>
   <settings>default.xml</settings>
   <metatype>Elf</metatype>
@@ -26,25 +26,25 @@
     <priorityskill>Spellcasting</priorityskill>
   </priorityskills>
   <essenceatspecialstart>6</essenceatspecialstart>
-  <name />
+  <name>Lux Las</name>
   <mainmugshotindex>-1</mainmugshotindex>
   <mugshots />
-  <sex />
-  <age />
-  <eyes />
-  <height />
-  <weight />
-  <skin />
-  <hair />
+  <sex>männlich</sex>
+  <age>18</age>
+  <eyes>vkaz</eyes>
+  <height>179</height>
+  <weight>72</weight>
+  <skin>dunkelrot-braun</skin>
+  <hair>braun</hair>
   <description />
   <background />
   <concept />
   <notes />
   <alias>Lux2</alias>
-  <playername />
+  <playername>Lux Las</playername>
   <gamenotes />
-  <primaryarm>Right</primaryarm>
-  <karma>12</karma>
+  <primaryarm>Left</primaryarm>
+  <karma>7</karma>
   <special>3</special>
   <totalspecial>3</totalspecial>
   <totalattributes>24</totalattributes>
@@ -61,7 +61,7 @@
   <burntstreetcred>0</burntstreetcred>
   <created>False</created>
   <maxavail>12</maxavail>
-  <nuyen>-1200.000</nuyen>
+  <nuyen>75.00</nuyen>
   <startingnuyen>6000</startingnuyen>
   <sumtoten>10</sumtoten>
   <buildkarma>25</buildkarma>
@@ -115,7 +115,7 @@
       <base>4</base>
       <karma>0</karma>
       <metatypecategory>Standard</metatypecategory>
-      <totalvalue>6</totalvalue>
+      <totalvalue>7</totalvalue>
     </attribute>
     <attribute>
       <name>STR</name>
@@ -237,7 +237,7 @@
   <groupname />
   <groupnotes />
   <totaless>6.0</totaless>
-  <magsplitadept>2</magsplitadept>
+  <magsplitadept>3</magsplitadept>
   <magsplitmagician>0</magsplitmagician>
   <tradition>
     <guid>3449984e-8fd2-4dae-b398-df2a02253c55</guid>
@@ -814,7 +814,7 @@
         <buywithkarma>False</buywithkarma>
         <specs>
           <spec>
-            <guid>7065626a-ade9-422c-9c5a-dffbc3e03e53</guid>
+            <guid>19e9fcc6-0c60-4871-ad58-93826541e9a1</guid>
             <name>Combat</name>
             <free>False</free>
           </spec>
@@ -1046,6 +1046,18 @@
           </spec>
         </specs>
         <name>Unterwelt</name>
+        <type>Street</type>
+      </skill>
+      <skill>
+        <guid>1be97305-0a5a-49ab-be30-8af1589c2fd8</guid>
+        <suid>85334671-01ec-42ef-9908-dae556376a2c</suid>
+        <isknowledge>True</isknowledge>
+        <skillcategory>Street</skillcategory>
+        <karma>0</karma>
+        <base>2</base>
+        <notes />
+        <buywithkarma>False</buywithkarma>
+        <name>Psychologie</name>
         <type>Street</type>
       </skill>
     </knoskills>
@@ -1305,7 +1317,7 @@
       <pointsperlevel>1</pointsperlevel>
       <adeptway>0</adeptway>
       <action />
-      <rating>1</rating>
+      <rating>2</rating>
       <extrapointcost>0.5</extrapointcost>
       <levels>True</levels>
       <maxlevel>3</maxlevel>
@@ -1389,6 +1401,7 @@
       <damage>0</damage>
       <rating>0</rating>
       <maxrating>0</maxrating>
+      <stolen>False</stolen>
       <armormods>
         <armormod>
           <guid>232a540a-e9e8-43d1-95c1-b9f991b6595e</guid>
@@ -1411,8 +1424,10 @@
           <included>False</included>
           <equipped>True</equipped>
           <extra />
+          <stolen>False</stolen>
           <notes />
           <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
         </armormod>
         <armormod>
           <guid>8b4e1587-87d8-438e-a52b-3a7ae08e169f</guid>
@@ -1435,8 +1450,10 @@
           <included>False</included>
           <equipped>True</equipped>
           <extra />
+          <stolen>False</stolen>
           <notes />
           <discountedcost>False</discountedcost>
+          <sortorder>0</sortorder>
         </armormod>
       </armormods>
       <bonus />
@@ -1444,6 +1461,7 @@
       <location />
       <notes />
       <discountedcost>False</discountedcost>
+      <sortorder>0</sortorder>
     </armor>
   </armors>
   <weapons>
@@ -1464,6 +1482,7 @@
       <cyberware>False</cyberware>
       <ammocategory />
       <ammoname />
+      <ammoslots>1</ammoslots>
       <sizecategory />
       <firingmode>Skill</firingmode>
       <clips />
@@ -1486,6 +1505,7 @@
       <requireammo>True</requireammo>
       <accuracy>Physical</accuracy>
       <mount />
+      <stolen>False</stolen>
       <extramount />
       <location />
       <notes />
@@ -1507,6 +1527,9 @@
       <modattributearray />
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelesson>False</wirelesson>
+      <sortorder>0</sortorder>
     </weapon>
     <weapon>
       <sourceid>eb16de72-e646-4880-aa5b-21a5a0a2b342</sourceid>
@@ -1525,6 +1548,7 @@
       <cyberware>False</cyberware>
       <ammocategory />
       <ammoname />
+      <ammoslots>1</ammoslots>
       <sizecategory />
       <firingmode>Skill</firingmode>
       <clips />
@@ -1547,6 +1571,7 @@
       <requireammo>True</requireammo>
       <accuracy>5</accuracy>
       <mount />
+      <stolen>False</stolen>
       <extramount />
       <location />
       <notes />
@@ -1568,6 +1593,9 @@
       <modattributearray />
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelesson>False</wirelesson>
+      <sortorder>0</sortorder>
     </weapon>
     <weapon>
       <sourceid>eb16de72-e646-4880-aa5b-21a5a0a2b342</sourceid>
@@ -1586,6 +1614,7 @@
       <cyberware>False</cyberware>
       <ammocategory />
       <ammoname />
+      <ammoslots>1</ammoslots>
       <sizecategory />
       <firingmode>Skill</firingmode>
       <clips />
@@ -1608,6 +1637,7 @@
       <requireammo>True</requireammo>
       <accuracy>5</accuracy>
       <mount />
+      <stolen>False</stolen>
       <extramount />
       <location />
       <notes />
@@ -1629,6 +1659,9 @@
       <modattributearray />
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelesson>False</wirelesson>
+      <sortorder>0</sortorder>
     </weapon>
     <weapon>
       <sourceid>eb16de72-e646-4880-aa5b-21a5a0a2b342</sourceid>
@@ -1647,6 +1680,7 @@
       <cyberware>False</cyberware>
       <ammocategory />
       <ammoname />
+      <ammoslots>1</ammoslots>
       <sizecategory />
       <firingmode>Skill</firingmode>
       <clips />
@@ -1669,6 +1703,7 @@
       <requireammo>True</requireammo>
       <accuracy>5</accuracy>
       <mount />
+      <stolen>False</stolen>
       <extramount />
       <location />
       <notes />
@@ -1690,6 +1725,9 @@
       <modattributearray />
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelesson>False</wirelesson>
+      <sortorder>0</sortorder>
     </weapon>
     <weapon>
       <sourceid>a92933cb-0c81-4b54-aeb1-ddc24836775d</sourceid>
@@ -1708,6 +1746,7 @@
       <cyberware>False</cyberware>
       <ammocategory />
       <ammoname />
+      <ammoslots>1</ammoslots>
       <sizecategory />
       <firingmode>Skill</firingmode>
       <clips />
@@ -1730,6 +1769,7 @@
       <requireammo>True</requireammo>
       <accuracy>5</accuracy>
       <mount />
+      <stolen>False</stolen>
       <extramount />
       <location />
       <notes />
@@ -1751,6 +1791,9 @@
       <modattributearray />
       <canswapattributes>False</canswapattributes>
       <matrixcmfilled>0</matrixcmfilled>
+      <wirelessbonus />
+      <wirelesson>False</wirelesson>
+      <sortorder>0</sortorder>
     </weapon>
   </weapons>
   <cyberwares />
@@ -1892,6 +1935,7 @@
         </lifestylequality>
       </freegrids>
       <notes />
+      <sortorder>0</sortorder>
     </lifestyle>
   </lifestyles>
   <gears>
@@ -1912,6 +1956,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <weaponguid>ee366d51-b5ed-4c38-8392-87a3b0c23ae0</weaponguid>
       <bonus>
       </bonus>
@@ -1945,6 +1990,7 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
           <bonus>
           </bonus>
           <wirelessbonus>
@@ -1978,6 +2024,7 @@
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
+          <sortorder>0</sortorder>
         </gear>
         <gear>
           <guid>de5562d4-04ba-4ea0-aebb-2cf9de1c4631</guid>
@@ -1996,6 +2043,7 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
           <bonus>
           </bonus>
           <wirelessbonus>
@@ -2029,6 +2077,7 @@
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
+          <sortorder>0</sortorder>
         </gear>
         <gear>
           <guid>781c7d3f-9ff3-4b3e-b697-4a4ad1db392a</guid>
@@ -2047,6 +2096,7 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
           <bonus>
           </bonus>
           <wirelessbonus>
@@ -2080,6 +2130,7 @@
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
+          <sortorder>0</sortorder>
         </gear>
         <gear>
           <guid>56417208-2ff6-4db1-92ab-c48b7bd8c317</guid>
@@ -2098,6 +2149,7 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
           <bonus>
           </bonus>
           <wirelessbonus>
@@ -2131,6 +2183,7 @@
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
+          <sortorder>0</sortorder>
         </gear>
         <gear>
           <guid>bd3ced18-0395-4b33-a846-bfba26a8d1d4</guid>
@@ -2149,6 +2202,7 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
           <bonus>
           </bonus>
           <wirelessbonus>
@@ -2182,6 +2236,7 @@
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
+          <sortorder>0</sortorder>
         </gear>
         <gear>
           <guid>254e397c-7663-4751-b372-36b49e8cb47c</guid>
@@ -2200,6 +2255,7 @@
           <bonded>False</bonded>
           <equipped>True</equipped>
           <wirelesson>False</wirelesson>
+          <stolen>False</stolen>
           <bonus>
           </bonus>
           <wirelessbonus>
@@ -2233,6 +2289,7 @@
           <canswapattributes>False</canswapattributes>
           <active>False</active>
           <homenode>False</homenode>
+          <sortorder>0</sortorder>
         </gear>
       </children>
       <location />
@@ -2253,6 +2310,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <guid>e777c2cf-9fc1-474e-912f-976d92d48a99</guid>
@@ -2271,6 +2329,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <bonus>
       </bonus>
       <wirelessbonus>
@@ -2304,160 +2363,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-    </gear>
-    <gear>
-      <guid>ef1d65b5-86a7-403a-9ff5-6031ae4bc236</guid>
-      <id>b218dbd1-5706-4d9e-a6a7-ab9b658c3acd</id>
-      <name>Glasses</name>
-      <category>Vision Devices</category>
-      <capacity>Rating</capacity>
-      <armorcapacity />
-      <minrating />
-      <maxrating>4</maxrating>
-      <rating>4</rating>
-      <qty>1.0</qty>
-      <avail>0</avail>
-      <cost>Rating * 100</cost>
-      <extra />
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <bonus>
-      </bonus>
-      <wirelessbonus>
-      </wirelessbonus>
-      <source>SR5</source>
-      <page>443</page>
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children>
-        <gear>
-          <guid>2f96ae7d-d343-4be1-9854-02c0a2c4384a</guid>
-          <id>2886d77a-1321-4a29-aec8-8040b9c5776f</id>
-          <name>Image Link</name>
-          <category>Vision Enhancements</category>
-          <capacity>[1]</capacity>
-          <armorcapacity>[1]</armorcapacity>
-          <minrating />
-          <maxrating />
-          <rating>0</rating>
-          <qty>1.0</qty>
-          <avail>+0</avail>
-          <cost>25</cost>
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <bonus>
-          </bonus>
-          <wirelessbonus>
-          </wirelessbonus>
-          <source>SR5</source>
-          <page>444</page>
-          <canformpersona />
-          <devicerating />
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid />
-          <allowrename>False</allowrename>
-          <children />
-          <location />
-          <notes />
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-        </gear>
-        <gear>
-          <guid>30786e3d-a36f-4880-ba04-b548aca590d6</guid>
-          <id>7fc23c2f-b41a-46b0-9ed7-9dc93986fab3</id>
-          <name>Flare Compensation</name>
-          <category>Vision Enhancements</category>
-          <capacity>[1]</capacity>
-          <armorcapacity>[1]</armorcapacity>
-          <minrating />
-          <maxrating />
-          <rating>0</rating>
-          <qty>1.0</qty>
-          <avail>+1</avail>
-          <cost>250</cost>
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <bonus>
-          </bonus>
-          <wirelessbonus>
-          </wirelessbonus>
-          <source>SR5</source>
-          <page>444</page>
-          <canformpersona />
-          <devicerating />
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid />
-          <allowrename>False</allowrename>
-          <children />
-          <location />
-          <notes />
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-        </gear>
-      </children>
-      <location />
-      <notes />
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <guid>f54bd83c-3102-4323-8461-80ccc24919e7</guid>
@@ -2477,6 +2383,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <bonus>
       </bonus>
       <wirelessbonus>
@@ -2510,6 +2417,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <guid>924bf022-3020-449b-8c11-4c274f5969bc</guid>
@@ -2528,6 +2436,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <bonus>
       </bonus>
       <wirelessbonus>
@@ -2561,6 +2470,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <guid>1a9535b5-9db9-4303-bc4b-98d200680ff2</guid>
@@ -2579,6 +2489,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <bonus>
       </bonus>
       <wirelessbonus>
@@ -2612,6 +2523,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <guid>b11bfc05-2a60-4aa2-ae48-cae96834caac</guid>
@@ -2630,6 +2542,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <bonus>
       </bonus>
       <wirelessbonus>
@@ -2663,6 +2576,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <guid>c970faf3-6b01-4917-9921-b256ebee6fbf</guid>
@@ -2681,6 +2595,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <bonus>
       </bonus>
       <wirelessbonus>
@@ -2714,6 +2629,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <guid>32a91e1c-372e-40ca-8868-a15c849056d5</guid>
@@ -2732,6 +2648,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <bonus>
       </bonus>
       <wirelessbonus>
@@ -2765,6 +2682,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
     <gear>
       <guid>13e96b06-13fd-4848-824c-04ceeeef034d</guid>
@@ -2783,6 +2701,7 @@
       <bonded>False</bonded>
       <equipped>True</equipped>
       <wirelesson>False</wirelesson>
+      <stolen>False</stolen>
       <bonus>
       </bonus>
       <wirelessbonus>
@@ -2816,161 +2735,7 @@
       <canswapattributes>False</canswapattributes>
       <active>False</active>
       <homenode>False</homenode>
-    </gear>
-    <gear>
-      <guid>5ae6365f-e594-482f-884a-a8916b5b35c0</guid>
-      <id>49bbc9d3-860d-47db-b4bc-8417f5b6ab65</id>
-      <name>Handheld Housing</name>
-      <category>Sensor Housings</category>
-      <capacity>Rating</capacity>
-      <armorcapacity />
-      <minrating />
-      <maxrating>3</maxrating>
-      <rating>1</rating>
-      <qty>2.0</qty>
-      <avail>0</avail>
-      <cost>Rating * 100</cost>
-      <extra />
-      <bonded>False</bonded>
-      <equipped>True</equipped>
-      <wirelesson>False</wirelesson>
-      <bonus>
-      </bonus>
-      <wirelessbonus>
-      </wirelessbonus>
-      <source>SR5</source>
-      <page>445</page>
-      <canformpersona />
-      <devicerating />
-      <gearname />
-      <forcedvalue />
-      <matrixcmfilled>0</matrixcmfilled>
-      <matrixcmbonus>0</matrixcmbonus>
-      <parentid />
-      <allowrename>False</allowrename>
-      <children>
-        <gear>
-          <guid>b028fa55-5842-4ec1-a19d-79ae32364d35</guid>
-          <id>2d4edef2-2891-4383-83f6-81f05cfbd046</id>
-          <name>Single Sensor</name>
-          <category>Sensors</category>
-          <capacity>1/[1]</capacity>
-          <armorcapacity>[1]</armorcapacity>
-          <minrating>2</minrating>
-          <maxrating>8</maxrating>
-          <rating>2</rating>
-          <qty>1.0</qty>
-          <avail>5</avail>
-          <cost>Rating * 100</cost>
-          <extra />
-          <bonded>False</bonded>
-          <equipped>True</equipped>
-          <wirelesson>False</wirelesson>
-          <bonus>
-          </bonus>
-          <wirelessbonus>
-          </wirelessbonus>
-          <source>SR5</source>
-          <page>445</page>
-          <canformpersona />
-          <devicerating />
-          <gearname />
-          <forcedvalue />
-          <matrixcmfilled>0</matrixcmfilled>
-          <matrixcmbonus>0</matrixcmbonus>
-          <parentid />
-          <allowrename>False</allowrename>
-          <children>
-            <gear>
-              <guid>10685d10-7fbb-4b0c-86a9-7702154bee45</guid>
-              <id>ffc069af-d3ec-4201-887c-0178dcdfeef9</id>
-              <name>Camera</name>
-              <category>Sensor Functions</category>
-              <capacity>Rating/[1]</capacity>
-              <armorcapacity>Rating/[1]</armorcapacity>
-              <minrating />
-              <maxrating>{Parent Rating}</maxrating>
-              <rating>2</rating>
-              <qty>1.0</qty>
-              <avail>0</avail>
-              <cost>0</cost>
-              <extra />
-              <bonded>False</bonded>
-              <equipped>True</equipped>
-              <wirelesson>False</wirelesson>
-              <bonus>
-              </bonus>
-              <wirelessbonus>
-              </wirelessbonus>
-              <source>SR5</source>
-              <page>446</page>
-              <canformpersona />
-              <devicerating />
-              <gearname />
-              <forcedvalue />
-              <matrixcmfilled>0</matrixcmfilled>
-              <matrixcmbonus>0</matrixcmbonus>
-              <parentid />
-              <allowrename>False</allowrename>
-              <children />
-              <location />
-              <notes />
-              <discountedcost>False</discountedcost>
-              <programlimit />
-              <overclocked>None</overclocked>
-              <attack />
-              <sleaze />
-              <dataprocessing />
-              <firewall />
-              <attributearray />
-              <modattack />
-              <modsleaze />
-              <moddataprocessing />
-              <modfirewall />
-              <modattributearray />
-              <canswapattributes>False</canswapattributes>
-              <active>False</active>
-              <homenode>False</homenode>
-            </gear>
-          </children>
-          <location />
-          <notes />
-          <discountedcost>False</discountedcost>
-          <programlimit />
-          <overclocked>None</overclocked>
-          <attack />
-          <sleaze />
-          <dataprocessing />
-          <firewall />
-          <attributearray />
-          <modattack />
-          <modsleaze />
-          <moddataprocessing />
-          <modfirewall />
-          <modattributearray />
-          <canswapattributes>False</canswapattributes>
-          <active>False</active>
-          <homenode>False</homenode>
-        </gear>
-      </children>
-      <location />
-      <notes />
-      <discountedcost>False</discountedcost>
-      <programlimit />
-      <overclocked>None</overclocked>
-      <attack />
-      <sleaze />
-      <dataprocessing />
-      <firewall />
-      <attributearray />
-      <modattack />
-      <modsleaze />
-      <moddataprocessing />
-      <modfirewall />
-      <modattributearray />
-      <canswapattributes>False</canswapattributes>
-      <active>False</active>
-      <homenode>False</homenode>
+      <sortorder>0</sortorder>
     </gear>
   </gears>
   <vehicles />
@@ -3239,6 +3004,29 @@
       <notes />
     </improvement>
     <improvement>
+      <target />
+      <improvedname />
+      <sourcename>d2061b28-4298-45b7-a02d-68548e686d2e</sourcename>
+      <min>0</min>
+      <max>0</max>
+      <aug>0</aug>
+      <augmax>0</augmax>
+      <val>1</val>
+      <rating>1</rating>
+      <exclude />
+      <condition />
+      <improvementttype>CMThresholdOffset</improvementttype>
+      <improvementsource>Power</improvementsource>
+      <custom>False</custom>
+      <customname />
+      <customid />
+      <customgroup />
+      <addtorating>False</addtorating>
+      <enabled>True</enabled>
+      <order>0</order>
+      <notes />
+    </improvement>
+    <improvement>
       <unique>precedence0</unique>
       <target />
       <improvedname />
@@ -3247,7 +3035,7 @@
       <max>0</max>
       <aug>0</aug>
       <augmax>0</augmax>
-      <val>1</val>
+      <val>2</val>
       <rating>1</rating>
       <exclude />
       <condition />
@@ -3268,36 +3056,13 @@
       <sourcename>b788f767-f574-41db-966b-1920305b051b</sourcename>
       <min>0</min>
       <max>0</max>
-      <aug>1</aug>
+      <aug>2</aug>
       <augmax>0</augmax>
       <val>0</val>
       <rating>1</rating>
       <exclude />
       <condition />
       <improvementttype>Attribute</improvementttype>
-      <improvementsource>Power</improvementsource>
-      <custom>False</custom>
-      <customname />
-      <customid />
-      <customgroup />
-      <addtorating>False</addtorating>
-      <enabled>True</enabled>
-      <order>0</order>
-      <notes />
-    </improvement>
-    <improvement>
-      <target />
-      <improvedname />
-      <sourcename>d2061b28-4298-45b7-a02d-68548e686d2e</sourcename>
-      <min>0</min>
-      <max>0</max>
-      <aug>0</aug>
-      <augmax>0</augmax>
-      <val>1</val>
-      <rating>1</rating>
-      <exclude />
-      <condition />
-      <improvementttype>CMThresholdOffset</improvementttype>
       <improvementsource>Power</improvementsource>
       <custom>False</custom>
       <customname />
@@ -3323,4 +3088,7 @@
     <source>RF</source>
   </sources>
   <customdatadirectorynames />
+  <plugins>
+    <ChummerHub.Client version="1.0.0.2">{"id":"e8c584ca-821f-43df-b7fb-7ee9ad9cb163","visibility":{"id":"ffdd03ea-633d-4198-8bc1-36b63622618a","isPublic":null,"isGroupVisible":null,"userRights":null},"tags":[]}</ChummerHub.Client>
+  </plugins>
 </character>
